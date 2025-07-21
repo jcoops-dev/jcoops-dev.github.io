@@ -1,0 +1,45 @@
+---
+title: 'Blog Post number 2'
+date: 2025-07-21
+updated: ???
+permalink: /posts/2025/07/blog-post-2/
+tags:
+  - site posts
+---
+
+It's been about a month and a half since I first setup this website and published my first post. I hadn't updated nor interacted with it once in all of that time. Surprisingly enough though,
+I did not forget about it!
+
+Over the past month, I've been deeply engaged with a new project, an starting today, I will begin using this website to document some of my findings and track my development.
+
+I've taken a recent fascination with AI, starting with language models like ChatGPT. Less than a year ago, this would have been entirely unthinkable to me, as I had little more than disdain for
+generative AI. Following my work on other projects and engagement with the literature, I started to find myself taking interest in the ways it could be better utilized. Soon after, I found that my
+limited coding experience was actually sufficient to get started with some rough prototyping. I've worked with game engines like Godot and Unity in the past, so I decided that the best way to undertake
+this project would be working in a familiar environment. I began with a simple Godot prototype that integrated with a locally hosted LLM API through LM Studio. This integration, coupled with some
+simple UI elements, allowed me to create an interface in which the player can send a message to the AI and receive the AI's generated response within the game window.
+
+The prototype is functional, but far from optimal. The code is very simple, the AI interaction works but not terribly well, and the interface leaves much to be desired. The purpose of this prototype
+was to assess the feasibility of using AI within a gaming environment. The first version proved promising but with substantial caveats, ranging from high system processing demands to considerable
+wait times to send and receive prompts. I sat on this version for about two weeks before finally deciding to future-proof the project by moving it to Unity. While Godot presented a simpler environment
+for development (and remains my personal preference), Unity offers more affordances for the project, such as VR development and use of Marketplace tools and assets. One boon of the Godot prototype was
+the simplicity with which I was able to rebuild the project in Unity. It only took a few hours to rewrite the code from Gdscript to C#, rebuild a similar user interface, and begin testing functionality.
+
+The Unity prototype is considerably more usable. With a few quick optimizations along the way, generation time reduced from several minutes to roughly 30 seconds, and user interaction with
+the AI became smoother and less nonsensicle. The code remains very simple but poorly optimized, while the UI itself has become more user friendly while still retaining a few minor bugs to sort out.
+Overall, the Unity prototype is working well as the second iteration of my LM-Game Engine integration. The next steps of my project will be to clean up the code and improve how prompts are sent and received,
+with the hopes of further reducing generation time to something more appropriate for a game setting; 10 seconds is my new target. Additionally, taking advantage of the game engine setting, I'd like
+to include a more structured environment for future tests. I'm thinking along the lines of a text-based adventure game, using the AI to generate the in-game text, and using the game engine to format
+user prompts alongside of system instructions for the AI to follow. The goal here is to test out using an external tool like Unity to inject instructuions into user prompts, so that while the user
+continues to engage with the AI using natural language, the game engine can perhaps provide specific keywords or narrative beats for te AI to follow. And lastly, I've been working with a very
+rudimentary memory system that will generate a file containing user prompts and AI responses, using system keywords to identify relevant conversations. It doesn't currently work with the way I have
+my prompts setup, but will be tested again following my sweeping code updates.
+
+I have one more project update to share that isn't directly connected to the AI-Unity integration at the moment, but will be explored in a future update. Image generation. I have a local copy of
+Stable Diffusion, set up with a strong but lightweight checkpoint model, that can generate high-quality images within roughly 30 seconds. This of course comes with all of the expected caveats with
+AI images, including distorted bodies and faces, extra limbs or fingers, and nonsensicle geometry. Part of my work with Stable Diffusion has just been learning about how to use it to overcome
+some of these common generation problems. So far, I've found ideal ways to present prompts to minimize the risk of bad generations, but have yet to fully do away with it. A combination of LoRAs
+and specificity behind what I allow the AI to generate in terms of content -- for example it always does well with environments but struggles with characters -- will determine what use I find for it
+within the project. Based on its local distribution, it seems highly likely that integrating it with Unity will be similar to the integration with LM Studio, so while it definitely seems possible,
+a use case for it will still be needed before I move forward with it.
+
+That's all for project updates at the moment! Stay tuned for more, at an uncertain point in the future!
