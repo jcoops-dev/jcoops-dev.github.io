@@ -13,8 +13,12 @@ WIP, come back soon!
 ## Generated Images
 
 <div class="project-gallery">
-  <img src="/images/ai-media/screenshot1.png" alt="Screenshot 1">
-  <img src="/images/ai-media/screenshot2.png" alt="Screenshot 2">
+  <a href="/images/ai-media/screenshot1.png" target="_blank">
+    <img src="/images/ai-media/screenshot1.png" alt="Screenshot 1">
+  </a>
+  <a href="/images/ai-media/screenshot2.png" target="_blank">
+    <img src="/images/ai-media/screenshot2.png" alt="Screenshot 2">
+  </a>
 </div>
 
 ## Links
