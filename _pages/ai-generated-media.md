@@ -34,19 +34,21 @@ WIP, come back soon!
 	Negative Prompt:  blurry, lowres, low quality, deformed, distorted, extra limbs, bad anatomy, grainy, out of frame, cropped, watermarks, text, signature, jpeg artifacts, oversaturated, underexposed, steering wheel   
 	<br>
 	Generation Settings:  
-		Steps: 20  
-		Sampler: DPM++ 2M  
-		Schedule type: Karras  
-		CFG scale: 10  
-		Seed: 2053538866  
-		Size: 576x384  
-		Model hash: 15012c538f  
-		Model: realisticVisionV60B1_v51VAE   
-		Denoising strength: 0.7  
-		Hires upscale: 2  
-		Hires steps: 10  
-		Hires upscaler: Latent  
-		Version: v1.10.   
+		<br>Steps: 20  
+		<br>Sampler: DPM++ 2M  
+		<br>Schedule type: Karras  
+		<br>CFG scale: 10  
+		<br>Seed: 2053538866  
+		<br>Size: 576x384  
+		<br>Model hash: 15012c538f  
+		<br>Model: realisticVisionV60B1_v51VAE   
+		<br>Denoising strength: 0.7  
+		<br>Hires upscale: 2  
+		<br>Hires steps: 10  
+		<br>Hires upscaler: Latent  
+		<br>Version: v1.10.  
+	<br>
+	Notes: 20 attempts before settling on this version. Be sure to set steering wheel as a negative prompt or you'll get one in every generation.
 </details>
 
 ![image 2](/images/ai-media/concept-art/image2.png)
