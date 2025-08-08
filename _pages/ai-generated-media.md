@@ -30,9 +30,9 @@ WIP, come back soon!
 <details>
 	<summary> View full prompt</summary>
 	Prompt: futuristic silver spaceship cockpit interior, flashing control panel, central viewport revealing a vast colourful spiral galaxy, front view, highly detailed, intricate, atmospheric lighting, ultra-realistic textures, cinematic composition, concept art, 8k resolution, masterpiece  
-	
+	<br>
 	Negative Prompt:  blurry, lowres, low quality, deformed, distorted, extra limbs, bad anatomy, grainy, out of frame, cropped, watermarks, text, signature, jpeg artifacts, oversaturated, underexposed, steering wheel   
-	
+	<br>
 	Generation Settings:  
 		Steps: 20  
 		Sampler: DPM++ 2M  
