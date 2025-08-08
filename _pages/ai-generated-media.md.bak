@@ -1,0 +1,21 @@
+---
+layout: single
+title: "AI-Generated Media"
+permalink: /projects/ai-generated-media/
+author_profile: true
+---
+
+{% include base_path %}
+
+## Overview
+WIP, come back soon!
+
+## Generated Images
+
+<div class="project-gallery">
+  <img src="/images/ai-media/screenshot1.png" alt="Screenshot 1">
+  <img src="/images/ai-media/screenshot2.png" alt="Screenshot 2">
+</div>
+
+## Links
+Coming soon!

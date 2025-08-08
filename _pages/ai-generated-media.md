@@ -10,9 +10,16 @@ author_profile: true
 ## Overview
 WIP, come back soon!
 
-## Screenshots
-![Screenshot 1](/images/ai-media/screenshot1.png)
-![Screenshot 2](/images/ai-media/screenshot2.png)
+## Generated Images
+
+<div class="project-gallery">
+  <a href="/images/ai-media/screenshot1.png" target="_blank">
+    <img src="/images/ai-media/screenshot1.png" alt="Screenshot 1">
+  </a>
+  <a href="/images/ai-media/screenshot2.png" target="_blank">
+    <img src="/images/ai-media/screenshot2.png" alt="Screenshot 2">
+  </a>
+</div>
 
 ## Links
 Coming soon!
