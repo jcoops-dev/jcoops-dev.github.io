@@ -21,8 +21,8 @@ WIP, come back soon!
   }
 </style>
 
-[Screenshot 1](/images/ai-media/screenshot1.png)
-[Screenshot 2](/images/ai-media/screenshot2.png)
+![Screenshot 1](/images/ai-media/screenshot1.png)
+![Screenshot 2](/images/ai-media/screenshot2.png)
 
 ## Links
 Coming soon!
