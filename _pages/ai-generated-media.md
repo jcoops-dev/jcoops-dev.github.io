@@ -21,26 +21,299 @@ WIP, come back soon!
   }
 </style>
 
-![Screenshot 1](/images/ai-media/screenshot1.png)
+### Concept Art
 
-*Prompt: ""*
+*A series of attempts to convey ideas for media works.
+
+![image 1](/images/ai-media/concept-art/image1.png)
+
+*Prompt: "futuristic silver spaceship cockpit interior, flashing control panel, central viewport revealing a vast colourful spiral galaxy"*  
 
 <details>
 	<summary> View full prompt</summary>
-	Prompt:
-	Negative Prompt:
-	Generation Settings:
+	Prompt: futuristic silver spaceship cockpit interior, flashing control panel, central viewport revealing a vast colourful spiral galaxy, front view, highly detailed, intricate, atmospheric lighting, ultra-realistic textures, cinematic composition, concept art, 8k resolution, masterpiece   
+	Negative Prompt:  blurry, lowres, low quality, deformed, distorted, extra limbs, bad anatomy, grainy, out of frame, cropped, watermarks, text, signature, jpeg artifacts, oversaturated, underexposed, steering wheel   
+	Generation Settings: 
+		Steps: 20  
+		Sampler: DPM++ 2M  
+		Schedule type: Karras  
+		CFG scale: 10  
+		Seed: 2053538866  
+		Size: 576x384  
+		Model hash: 15012c538f  
+		Model: realisticVisionV60B1_v51VAE   
+		Denoising strength: 0.7  
+		Hires upscale: 2  
+		Hires steps: 10  
+		Hires upscaler: Latent  
+		Version: v1.10.   
 </details>
 
-![Screenshot 2](/images/ai-media/screenshot2.png)
+![image 2](/images/ai-media/concept-art/image2.png)
 
 *Prompt: ""*
 
 <details>
 	<summary> View full prompt</summary>
-	Prompt:
-	Negative Prompt:
-	Generation Settings:
+	Prompt:  
+	Negative Prompt:  
+	Generation Settings:  
+</details>
+
+![image 3](/images/ai-media/concept-art/image3.png)
+
+*Prompt: ""*
+
+<details>
+	<summary> View full prompt</summary>
+	Prompt:  
+	Negative Prompt:  
+	Generation Settings:  
+</details>
+
+![image 4](/images/ai-media/concept-art/image4.png)
+
+*Prompt: ""*
+
+<details>
+	<summary> View full prompt</summary>
+	Prompt:  
+	Negative Prompt:  
+	Generation Settings:  
+</details>
+![image 5](/images/ai-media/concept-art/image5.png)
+
+*Prompt: ""*
+
+<details>
+	<summary> View full prompt</summary>
+	Prompt:  
+	Negative Prompt:  
+	Generation Settings:  
+</details>
+
+### Product Design
+
+![image 1](/images/ai-media/product-design/image1.png)
+
+*Prompt: ""*
+
+<details>
+	<summary> View full prompt</summary>
+	Prompt:  
+	Negative Prompt:  
+	Generation Settings:  
+</details>
+
+![image 2](/images/ai-media/product-design/image2.png)
+
+*Prompt: ""*
+
+<details>
+	<summary> View full prompt</summary>
+	Prompt:  
+	Negative Prompt:  
+	Generation Settings:  
+</details>
+
+![image 3](/images/ai-media/product-design/image3.png)
+
+*Prompt: ""*
+
+<details>
+	<summary> View full prompt</summary>
+	Prompt:  
+	Negative Prompt:  
+	Generation Settings:  
+</details>
+
+![image 4](/images/ai-media/product-design/image4.png)
+
+*Prompt: ""*
+
+<details>
+	<summary> View full prompt</summary>
+	Prompt:  
+	Negative Prompt:  
+	Generation Settings:  
+</details>
+![image 5](/images/ai-media/product-design/image5.png)
+
+*Prompt: ""*
+
+<details>
+	<summary> View full prompt</summary>
+	Prompt:  
+	Negative Prompt:  
+	Generation Settings:  
+</details>
+
+### Abstract
+
+![image 1](/images/ai-media/abstract/image1.png)
+
+*Prompt: ""*
+
+<details>
+	<summary> View full prompt</summary>
+	Prompt:  
+	Negative Prompt:  
+	Generation Settings:  
+</details>
+
+![image 2](/images/ai-media/abstract/image2.png)
+
+*Prompt: ""*
+
+<details>
+	<summary> View full prompt</summary>
+	Prompt:  
+	Negative Prompt:  
+	Generation Settings:  
+</details>
+
+![image 3](/images/ai-media/abstract/image3.png)
+
+*Prompt: ""*
+
+<details>
+	<summary> View full prompt</summary>
+	Prompt:  
+	Negative Prompt:  
+	Generation Settings:  
+</details>
+
+![image 4](/images/ai-media/abstract/image4.png)
+
+*Prompt: ""*
+
+<details>
+	<summary> View full prompt</summary>
+	Prompt:  
+	Negative Prompt:  
+	Generation Settings:  
+</details>
+![image 5](/images/ai-media/abstract/image5.png)
+
+*Prompt: ""*
+
+<details>
+	<summary> View full prompt</summary>
+	Prompt:  
+	Negative Prompt:  
+	Generation Settings:  
+</details>
+
+### Marketing
+
+![image 1](/images/ai-media/marketing/image1.png)
+
+*Prompt: ""*
+
+<details>
+	<summary> View full prompt</summary>
+	Prompt:  
+	Negative Prompt:  
+	Generation Settings:  
+</details>
+
+![image 2](/images/ai-media/marketing/image2.png)
+
+*Prompt: ""*
+
+<details>
+	<summary> View full prompt</summary>
+	Prompt:  
+	Negative Prompt:  
+	Generation Settings:  
+</details>
+
+![image 3](/images/ai-media/marketing/image3.png)
+
+*Prompt: ""*
+
+<details>
+	<summary> View full prompt</summary>
+	Prompt:  
+	Negative Prompt:  
+	Generation Settings:  
+</details>
+
+![image 4](/images/ai-media/marketing/image4.png)
+
+*Prompt: ""*
+
+<details>
+	<summary> View full prompt</summary>
+	Prompt:  
+	Negative Prompt:  
+	Generation Settings:  
+</details>
+![image 5](/images/ai-media/marketing/image5.png)
+
+*Prompt: ""*
+
+<details>
+	<summary> View full prompt</summary>
+	Prompt:  
+	Negative Prompt:  
+	Generation Settings:  
+</details>
+
+### Technical
+
+![image 1](/images/ai-media/technical/image1.png)
+
+*Prompt: ""*
+
+<details>
+	<summary> View full prompt</summary>
+	Prompt:  
+	Negative Prompt:  
+	Generation Settings:  
+</details>
+
+![image 2](/images/ai-media/technical/image2.png)
+
+*Prompt: ""*
+
+<details>
+	<summary> View full prompt</summary>
+	Prompt:  
+	Negative Prompt:  
+	Generation Settings:  
+</details>
+
+![image 3](/images/ai-media/technical/image3.png)
+
+*Prompt: ""*
+
+<details>
+	<summary> View full prompt</summary>
+	Prompt:  
+	Negative Prompt:  
+	Generation Settings:  
+</details>
+
+![image 4](/images/ai-media/technical/image4.png)
+
+*Prompt: ""*
+
+<details>
+	<summary> View full prompt</summary>
+	Prompt:  
+	Negative Prompt:  
+	Generation Settings:  
+</details>
+![image 5](/images/ai-media/technical/image5.png)
+
+*Prompt: ""*
+
+<details>
+	<summary> View full prompt</summary>
+	Prompt:  
+	Negative Prompt:  
+	Generation Settings:  
 </details>
 
 ## Links
