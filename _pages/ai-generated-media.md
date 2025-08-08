@@ -10,8 +10,6 @@ author_profile: true
 ## Overview
 WIP, come back soon!
 
-## Generated Images
-
 <style>
   img {
     max-width: 300px;
@@ -21,9 +19,9 @@ WIP, come back soon!
   }
 </style>
 
-### Concept Art
+## Concept Art
 
-*A series of attempts to convey ideas for media works.
+*A series of attempts to convey ideas for media works.*
 
 ![image 1](/images/ai-media/concept-art/image1.png)
 
@@ -31,9 +29,11 @@ WIP, come back soon!
 
 <details>
 	<summary> View full prompt</summary>
-	Prompt: futuristic silver spaceship cockpit interior, flashing control panel, central viewport revealing a vast colourful spiral galaxy, front view, highly detailed, intricate, atmospheric lighting, ultra-realistic textures, cinematic composition, concept art, 8k resolution, masterpiece   
+	Prompt: futuristic silver spaceship cockpit interior, flashing control panel, central viewport revealing a vast colourful spiral galaxy, front view, highly detailed, intricate, atmospheric lighting, ultra-realistic textures, cinematic composition, concept art, 8k resolution, masterpiece  
+	
 	Negative Prompt:  blurry, lowres, low quality, deformed, distorted, extra limbs, bad anatomy, grainy, out of frame, cropped, watermarks, text, signature, jpeg artifacts, oversaturated, underexposed, steering wheel   
-	Generation Settings: 
+	
+	Generation Settings:  
 		Steps: 20  
 		Sampler: DPM++ 2M  
 		Schedule type: Karras  
@@ -92,7 +92,7 @@ WIP, come back soon!
 	Generation Settings:  
 </details>
 
-### Product Design
+## Product Design
 
 ![image 1](/images/ai-media/product-design/image1.png)
 
@@ -148,7 +148,7 @@ WIP, come back soon!
 	Generation Settings:  
 </details>
 
-### Abstract
+## Abstract
 
 ![image 1](/images/ai-media/abstract/image1.png)
 
@@ -204,7 +204,7 @@ WIP, come back soon!
 	Generation Settings:  
 </details>
 
-### Marketing
+## Marketing
 
 ![image 1](/images/ai-media/marketing/image1.png)
 
@@ -260,7 +260,7 @@ WIP, come back soon!
 	Generation Settings:  
 </details>
 
-### Technical
+## Technical
 
 ![image 1](/images/ai-media/technical/image1.png)
 
