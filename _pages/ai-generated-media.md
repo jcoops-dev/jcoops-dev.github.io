@@ -29,11 +29,14 @@ WIP, come back soon!
 
 <details>
 	<summary> View full prompt</summary>
-	Prompt: futuristic silver spaceship cockpit interior, flashing control panel, central viewport revealing a vast colourful spiral galaxy, front view, highly detailed, intricate, atmospheric lighting, ultra-realistic textures, cinematic composition, concept art, 8k resolution, masterpiece  
+	<br>
+	**Notes:** 20 attempts before settling on this version. Be sure to set steering wheel as a negative prompt or you'll get one in every generation.
 	<br><br>
-	Negative Prompt:  blurry, lowres, low quality, deformed, distorted, extra limbs, bad anatomy, grainy, out of frame, cropped, watermarks, text, signature, jpeg artifacts, oversaturated, underexposed, steering wheel   
+	**Prompt:** futuristic silver spaceship cockpit interior, flashing control panel, central viewport revealing a vast colourful spiral galaxy, front view, highly detailed, intricate, atmospheric lighting, ultra-realistic textures, cinematic composition, concept art, 8k resolution, masterpiece  
 	<br><br>
-	Generation Settings:  
+	**Negative Prompt:**  blurry, lowres, low quality, deformed, distorted, extra limbs, bad anatomy, grainy, out of frame, cropped, watermarks, text, signature, jpeg artifacts, oversaturated, underexposed, steering wheel   
+	<br><br>
+	**Generation Settings:**  
 		<br>Steps: 20  
 		<br>Sampler: DPM++ 2M  
 		<br>Schedule type: Karras  
@@ -47,8 +50,6 @@ WIP, come back soon!
 		<br>Hires steps: 10  
 		<br>Hires upscaler: Latent  
 		<br>Version: v1.10.  
-	<br><br>
-	Notes: 20 attempts before settling on this version. Be sure to set steering wheel as a negative prompt or you'll get one in every generation.
 </details>
 
 ![image 2](/images/ai-media/concept-art/image2.png)
