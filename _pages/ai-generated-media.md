@@ -13,7 +13,7 @@ WIP, come back soon!
 ## Generated Images
 
 <style>
-  a img {
+  img {
     max-width: 300px;
     height: auto;
     display: inline-block;
@@ -22,7 +22,26 @@ WIP, come back soon!
 </style>
 
 ![Screenshot 1](/images/ai-media/screenshot1.png)
+
+*Prompt: ""*
+
+<details>
+	<summary> View full prompt</summary>
+	Prompt:
+	Negative Prompt:
+	Generation Settings:
+</details>
+
 ![Screenshot 2](/images/ai-media/screenshot2.png)
+
+*Prompt: ""*
+
+<details>
+	<summary> View full prompt</summary>
+	Prompt:
+	Negative Prompt:
+	Generation Settings:
+</details>
 
 ## Links
 Coming soon!
