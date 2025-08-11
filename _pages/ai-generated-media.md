@@ -52,15 +52,33 @@ WIP, come back soon!
 		<br>Version: v1.10.  
 </details>
 
-![image 2](/images/ai-media/concept-art/image2.png)
+![Concept Art 2](/images/ai-media/concept-art/image2.png)
 
-*Prompt: ""*
+*Prompt: "Colossal monstrous venus flytrap inspired by Little Shop of Horrors"*
 
 <details>
 	<summary> View full prompt</summary>
-	Prompt:  
-	Negative Prompt:  
-	Generation Settings:  
+	<br>
+	<strong>Notes:</strong> Many attempts before I got this one, the AI didn't get what I was going for until I put in the Little Shop of Horrors part of the prompt
+	<br><br>
+	<strong>Prompt:</strong> colossal monstrous venus flytrap inspired by Little Shop of Horrors, gaping crimson maw lined with razor-sharp cilia, surrounded by jungle trees, partially obscured by foliage, perspective from tiny human’s viewpoint for scale, cinematic lighting with dramatic mist, ultra-realistic botanical detail, predatory stance, 8k, concept art, masterpiece    
+	<br><br>
+	<strong>Negative Prompt:</strong>  blurry, lowres, low quality, deformed, distorted, extra limbs, bad anatomy, grainy, out of frame, cropped, watermarks, text, signature, jpeg artifacts, oversaturated, underexposed   
+	<br><br>
+	<strong>Generation Settings:</strong>  
+		<br>Steps: 20  
+		<br>Sampler: DPM++ 2M  
+		<br>Schedule type: Karras  
+		<br>CFG scale: 7  
+		<br>Seed: 1896508403  
+		<br>Size: 576x384  
+		<br>Model hash: 15012c538f  
+		<br>Model: realisticVisionV60B1_v51VAE   
+		<br>Denoising strength: 0.7  
+		<br>Hires upscale: 2  
+		<br>Hires steps: 10  
+		<br>Hires upscaler: Latent  
+		<br>Version: v1.10.  
 </details>
 
 ![image 3](/images/ai-media/concept-art/image3.png)
