@@ -24,7 +24,9 @@ My goal, upon completion of this sub-project, is to understand how best to forma
 
 ## Concept Art
 
-*A series of attempts to convey ideas for media works. Mostly focused on fictional environments, exploring different genres and aesthetics.*
+*A series of attempts to convey ideas for media works. Mostly focused on fictional environments, exploring different genres and aesthetics.*  
+
+### Concept Art 1: Sci-Fi  
 
 ![Concept Art 1](/images/ai-media/concept-art/image1.png)
 
@@ -55,6 +57,8 @@ My goal, upon completion of this sub-project, is to understand how best to forma
 		<br>Version: v1.10.  
 </details>
 
+### Concept Art 2: Environmental/Botanical  
+
 ![Concept Art 2](/images/ai-media/concept-art/image2.png)
 
 *Prompt: "Colossal monstrous venus flytrap inspired by Little Shop of Horrors"*
@@ -83,6 +87,8 @@ My goal, upon completion of this sub-project, is to understand how best to forma
 		<br>Hires upscaler: Latent  
 		<br>Version: v1.10.  
 </details>
+
+### Concept Art 3: Gothic Horror  
 
 ![Concept Art 3](/images/ai-media/concept-art/image3.png)
 
@@ -113,6 +119,8 @@ My goal, upon completion of this sub-project, is to understand how best to forma
 		<br>Version: v1.10.  
 </details>
 
+### Concept Art 4: Steampunk  
+
 ![Concept Art 4](/images/ai-media/concept-art/image4.png)
 
 *Prompt: "Steampunk inventor workshop table, clockwork companion robot"*
@@ -142,6 +150,7 @@ My goal, upon completion of this sub-project, is to understand how best to forma
 		<br>Version: v1.10.  
 </details>
 
+### Concept Art 5: Fantasy
 
 ![Concept Art 5](/images/ai-media/concept-art/image5.png)
 
