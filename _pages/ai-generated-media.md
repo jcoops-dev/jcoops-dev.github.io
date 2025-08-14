@@ -13,15 +13,6 @@ As part of my AI-Unity integration project, I've explored running an AI image ge
 This series of images presents the results of my experiments with Stable Diffusion, including prompt structuring and generation settings, tackling a wide variety of categorized subject matter.  
 My goal, upon completion of this sub-project, is to understand how best to format image prompt data to be used in an interactive environment.  
 
-<style>
-  img {
-    max-width: 300px;
-    height: auto;
-    display: inline-block;
-    margin: 0.5rem;
-  }
-</style>
-
 ## Process
 
 Similar to the AI-Unity project, I prefer a free and open source model that can be run locally to my own computer. 
@@ -29,7 +20,8 @@ For this, I setup a Stable Diffusion build called AUTOMATIC1111, which includes 
 Then lastly, I acquired a model from [CivitAI](https://civitai.com/) called Realistic Vision, trained to create images with life-like photorealism.
 With the model and Stable Diffusion build, launching the software brings me to the following interface:
 
-![UI 1](/images/ai-media/UI1.png)
+![UI 1](/images/ai-media/UI1.png)  
+
 Stable Diffusion Web UI
 
 I then typically get setup with a list of common prompts and negative prompts to improve the quality of the generation. This includes keywords like "8k resolution, masterpiece, highly detailed",

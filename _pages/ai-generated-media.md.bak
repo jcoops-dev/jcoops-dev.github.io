@@ -13,15 +13,6 @@ As part of my AI-Unity integration project, I've explored running an AI image ge
 This series of images presents the results of my experiments with Stable Diffusion, including prompt structuring and generation settings, tackling a wide variety of categorized subject matter.  
 My goal, upon completion of this sub-project, is to understand how best to format image prompt data to be used in an interactive environment.  
 
-<style>
-  img {
-    max-width: 300px;
-    height: auto;
-    display: inline-block;
-    margin: 0.5rem;
-  }
-</style>
-
 ## Process
 
 Similar to the AI-Unity project, I prefer a free and open source model that can be run locally to my own computer. 
@@ -43,6 +34,8 @@ On average, I find it takes me 10-20 generations to reach an outcome that I like
 This poses an interesting dilemma for AI image generation use in interactive media, as the viewer is unlikely to be satisfied in a single generation. Bulk image generation might allow users to
 identify their preferred outputs, while also increasingly the generation time considerably. On-demand image generation appears to be the more balanced approach, letting the user decide if they'd like to re-generate the image. 
 On my current settings, image generation can be completed within roughly 30 seconds. Lower resolution images for interactive projects could likely be generated even faster.
+
+In the following section(s) I'll display some of my results, including the seed and settings used to make them (feel free to recreate them if you'd like).
 
 ## Concept Art
 
