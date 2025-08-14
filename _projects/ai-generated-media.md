@@ -9,7 +9,7 @@ author_profile: true
 
 ## Overview
 
-As part of my AI-Unity integration project, I've explored running an AI image generator local to my computer, with the eventual intention of using player input to generate in-game images.  
+As part of my AI-Unity integration project, I've explored running an AI image generator local to my computer, with the intention of eventually using player input to generate in-game images.  
 This series of images presents the results of my experiments with Stable Diffusion, including prompt structuring and generation settings, tackling a wide variety of categorized subject matter.  
 My goal, upon completion of this sub-project, is to understand how best to format image prompt data to be used in an interactive environment.  
 
@@ -150,7 +150,7 @@ My goal, upon completion of this sub-project, is to understand how best to forma
 		<br>Version: v1.10.  
 </details>
 
-### Concept Art 5: Fantasy/Mythological  
+### Concept Art 5: Fantasy
 
 ![Concept Art 5](/images/ai-media/concept-art/image5.png)
 
