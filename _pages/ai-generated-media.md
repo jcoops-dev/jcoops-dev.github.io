@@ -22,6 +22,30 @@ My goal, upon completion of this sub-project, is to understand how best to forma
   }
 </style>
 
+## Process
+
+Similar to the AI-Unity project, I prefer a free and open source model that can be run locally to my own computer. 
+For this, I setup a Stable Diffusion build called AUTOMATIC1111, which includes a browser-based UI well regarded for its user friendliness.
+Then lastly, I acquired a model from [CivitAI](https://civitai.com/) called Realistic Vision, trained to create images with life-like photorealism.
+With the model and Stable Diffusion build, launching the software brings me to the following interface:
+
+![UI 1](/images/ai-media/UI1.png)
+Stable Diffusion Web UI
+
+I then typically get setup with a list of common prompts and negative prompts to improve the quality of the generation. This includes keywords like "8k resolution, masterpiece, highly detailed",
+or negative keywords for things I don't want like "bad anatomy, low quality, blurry". Both of these only help guide the generation results and often need a bit of tuning based on the subject matter.
+
+The challenge with AI image generation is putting to words the results you want, in a way the AI will correctly interpret, while being unsure yourself as to what will happen when you press generate.
+I often start with a simple one sentence prompt (e.g. "futuristic spaceship in colourful galaxy") and then refine with further detail as I see the results and begin to understand what I'm hoping to see.
+At that point, settings also begin to come into consideration, often increasing or decreasing the number of steps, the weighting of different keywords, and the specific seed used to generate the image.
+On average, I find it takes me 10-20 generations to reach an outcome that I like. 
+
+This poses an interesting dilemma for AI image generation use in interactive media, as the viewer is unlikely to be satisfied in a single generation. Bulk image generation might allow users to
+identify their preferred outputs, while also increasingly the generation time considerably. On-demand image generation appears to be the more balanced approach, letting the user decide if they'd like to re-generate the image. 
+On my current settings, image generation can be completed within roughly 30 seconds. Lower resolution images for interactive projects could likely be generated even faster.
+
+In the following section(s) I'll display some of my results, including the seed and settings used to make them (feel free to recreate them if you'd like).
+
 ## Concept Art
 
 *A series of attempts to convey ideas for media works. Mostly focused on fictional environments, exploring different genres and aesthetics.*  
