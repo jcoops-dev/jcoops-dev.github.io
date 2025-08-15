@@ -20,7 +20,8 @@ For this, I setup a Stable Diffusion build called AUTOMATIC1111, which includes 
 Then lastly, I acquired a model from [CivitAI](https://civitai.com/) called Realistic Vision, trained to create images with life-like photorealism.
 With the model and Stable Diffusion build, launching the software brings me to the following interface:
 
-![UI 1](/images/ai-media/UI1.png)
+![UI 1](/images/ai-media/UI1.png)  
+
 Stable Diffusion Web UI
 
 I then typically get setup with a list of common prompts and negative prompts to improve the quality of the generation. This includes keywords like "8k resolution, masterpiece, highly detailed",
