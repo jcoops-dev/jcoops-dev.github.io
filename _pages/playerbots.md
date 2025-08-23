@@ -40,7 +40,8 @@ As the private server community grew, so too did its ambitions and the robustnes
 Now most private servers are based on a single open-source distribution called [AzerothCore →](https://www.azerothcore.org/). This software was designed to be highly modular, allowing community projects
 to submit individual modifications (called modules in this context -- modding would be an appropriate term as well) to the code to implement specific features. These features can range from
 gameplay improvements such as reduced character creation restrictions (making characters otherwise not possible in the original game) to entirely new content such as custom maps.
-One particular improvement caught my eye: Playerbots.
+One particular improvement caught my eye: Playerbots.  
+
 Playerbots makes use of botting scripts to create and control up to 10,000 simultaneous player characters (it could likely go higher with sufficient computer memory). It begins by registering fake player
 accounts in the server's database, then creates up to 10 in-game characters for each account. The playerbots are then able to login to all of their characters simultaneously and handle decision-making and actions for each character.
 Playerbots operate using a simple decision tree based on in-game variables. If it has any quests, it will navigate towards them. If it's near a town, it will talk to the NPCs. If there are enemies
@@ -48,15 +49,20 @@ nearby, it will attack them. They are designed to mimic the actions and behaviou
 and even have pre-made strategies for handling combat and boss fights. It is worth noting here that these Playerbots are not generative AI (but we'll get to that shortly), they are still simply running
 scripts to handle repetitive in-game tasks and determine what they should do next.
 
-There are two types of playerbots made available through these modules: randombots and altbots. Randombots are made to represent other players. They are generated when the server is launched and 
-gradually populate the world. To avoid overloading the computer's memory, randombots are put to sleep whenever there is no nearby player (this functionality can be disabled). Randombots will otherwise functional
-completely independent of real players and help populate the world, providing immersion through simulated player presence. Altbots, on the other hand, are made from the player's own characters.
-The player logs into the character of their choice and, through a simple in-game command, can generate a bot which logs in to one of their other characters. A player could then log out, log in to
+There are two types of playerbots made available through these modules: randombots and altbots. 
+
+Randombots are made to represent other players. They are generated when the server is launched and gradually populate the world. 
+To avoid overloading the computer's memory, randombots are put to sleep whenever there is no nearby player (this functionality can be disabled). Randombots will otherwise function
+completely independent of real players and help populate the world, providing immersion through simulated player presence. 
+
+Altbots, on the other hand, are made from the player's own characters. The player logs into the character of their choice and, through a simple in-game command, can generate a bot which logs in to one of their other characters. A player could then log out, log in to
 the other character, and generate a bot for their former character instead. Altbots offer an interesting opportunity of collaborative play with AI agents rather than competitive play. A player can't normally
 play two characters at once, as neither the systems nor the input requirements would cooperate with such an action, but with altbots, players can control multiple of their own characters at once.
 Altbots don't act with nearly the same autonomy as randombots, as they are instead designed to follow player instructions. These instructions can be issued through chat messages or through the use of
 in-game macros, which execute lines of text that can generate chat messages. A player can issue the command "attack my target" through either method, and all of the player's altbots will immediately
-follow their instructions. Altbots are capable of performing limited actions of their own accord, such as looting enemies or talking to NPCs, but will also run scripts to optimize their equipment,
+follow their instructions. 
+
+Altbots are capable of performing limited actions of their own accord, such as looting enemies or talking to NPCs, but will also run scripts to optimize their equipment,
 sell unwanted items, and occassionally send messages to their player handler. Altbots provide a different sort of immersion to that of randombots. Where randombots help populate the world to appear more
 active, altbots provide social immersion to the player in a similar style to having in-game friends or guildmembers. They accompany the player on their exploits and assist by progressing the player's other
 characters for them. A player with 5 altbots levelling up with them would no longer need to level up each character individually, alleviating the need to repeat familiar quests, and ensuring the player always

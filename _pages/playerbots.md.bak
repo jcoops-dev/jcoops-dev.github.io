@@ -40,7 +40,8 @@ As the private server community grew, so too did its ambitions and the robustnes
 Now most private servers are based on a single open-source distribution called [AzerothCore →](https://www.azerothcore.org/). This software was designed to be highly modular, allowing community projects
 to submit individual modifications (called modules in this context -- modding would be an appropriate term as well) to the code to implement specific features. These features can range from
 gameplay improvements such as reduced character creation restrictions (making characters otherwise not possible in the original game) to entirely new content such as custom maps.
-One particular improvement caught my eye: Playerbots.
+One particular improvement caught my eye: Playerbots.  
+
 Playerbots makes use of botting scripts to create and control up to 10,000 simultaneous player characters (it could likely go higher with sufficient computer memory). It begins by registering fake player
 accounts in the server's database, then creates up to 10 in-game characters for each account. The playerbots are then able to login to all of their characters simultaneously and handle decision-making and actions for each character.
 Playerbots operate using a simple decision tree based on in-game variables. If it has any quests, it will navigate towards them. If it's near a town, it will talk to the NPCs. If there are enemies
@@ -74,7 +75,7 @@ Brendim -- a dwarf rogue, randombot
  
 
 | id | Player Name | Bot Name | Player Message                                           | Bot Reply                                                                 |
-|----|---------------------|-------------|----------|----------------------------------------------------------|---------------------------------------------------------------------------|
+|----|-------------|----------|----------------------------------------------------------|---------------------------------------------------------------------------|
 | 1  | JCoops      | Brendim  | That one is wearing a skull!                             | Aye, I see 'im alright, Jcoops. But I'm more interested in smashin' faces than skulls, mate. |
 | 2  | JCoops      | Brendim  | How close are you to levelling up?                       | Aye, not far off now, Jcoops. Keep the demons at bay till I get there!    |
 | 3  | JCoops      | Brendim  | How's everyone doing?                                    | Aye, Brendim here, smashin' skulls as usual in Northshire Valley, ye? Watch yer back out there, Jcoops! |
