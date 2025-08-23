@@ -16,7 +16,7 @@ That game is World of Warcraft.
 I have many years of experience with the game, first playing in 2008 and on and off for years following. World of Warcraft is a Massively Multiplayer Online Game (MMO),
 meaning that thousands of players are online simultaneously, each pursuing their own in-game goals while occasionally partnering up with other players to complete more challenging content.
 World of Warcraft has a fascinating history of use in academic literature, from Ge Jin's [Chinese Gold Farmers in the Game World →](https://csrn.camden.rutgers.edu/newsletters/7-2/jin.htm)
-to the [Corrupted Blood virtual pandemic incident -> ](https://www.researchgate.net/publication/274073459_On_the_Problem_of_Predicting_Real_World_Characteristics_from_Virtual_Worlds).
+to the [Corrupted Blood virtual pandemic incident →](https://www.researchgate.net/publication/274073459_On_the_Problem_of_Predicting_Real_World_Characteristics_from_Virtual_Worlds).
 Due to the game's large and persistent community of players, the game has often given rise to curious emergent social behaviours and interactions with real-world implications.
 It is for this reason that I was surprised to see the game now being used to test out AI-Player interactions. I will detail how this has been happening in the following sections.
 
@@ -24,7 +24,7 @@ It is for this reason that I was surprised to see the game now being used to tes
 often to complete tedious tasks such as gathering resources or repeatidly killing the same enemy for virtual currency. Botting is also a bannable offense in World of Warcraft,
 as it violates the game's Terms & Conditions and is widely considered to be a method of cheating. Nevertheless, due to the real-world value of the game's virtual currency,
 players continue to employ bots to run their characters. 
-More on this practice can be read from any of the numerous publications about developers [mass-banning bot accounts ->](https://www.thegamer.com/blizzard-banned-74000-bots-world-of-warcraft-classic-future-change/). 
+More on this practice can be read from any of the numerous publications about developers [mass-banning bot accounts →](https://www.thegamer.com/blizzard-banned-74000-bots-world-of-warcraft-classic-future-change/). 
 While most World of Warcraft players believe bots to either a nuscence or an outright game-ruining exploit, for the purposes of this exploration into AI-powered game characters, 
 these bots represent an early glimpse into AI-Player interaction, and is overall viewed quite negatively given the context. Players are forced to "compete" against bots over in-game resources,
 and players employing bots are often more powerful due to their ability to gather resources 24/7, while real players need to take breaks.
@@ -37,7 +37,7 @@ they too continue to run every day. While the first iterations of private server
 some of the latest big private server projects have been experimenting with custom content unique to their server, transforming the game World of Warcraft into something similar to a game engine.
 
 As the private server community grew, so too did its ambitions and the robustness of its technology. 
-Now most private servers are based on a single open-source distribution called [AzerothCore->](https://www.azerothcore.org/). This software was designed to be highly modular, allowing community projects
+Now most private servers are based on a single open-source distribution called [AzerothCore →](https://www.azerothcore.org/). This software was designed to be highly modular, allowing community projects
 to submit individual modifications (called modules in this context -- modding would be an appropriate term as well) to the code to implement specific features. These features can range from
 gameplay improvements such as reduced character creation restrictions (making characters otherwise not possible in the original game) to entirely new content such as custom maps.
 One particular improvement caught my eye: Playerbots.
@@ -62,7 +62,7 @@ active, altbots provide social immersion to the player in a similar style to hav
 characters for them. A player with 5 altbots levelling up with them would no longer need to level up each character individually, alleviating the need to repeat familiar quests, and ensuring the player always
 has a team for completing more challenging content.
 
-Now finally, we get to the AI integration. A seperate module called [Ollama Chat ->](https://www.azerothcore.org/catalogue.html#/details/954883822) connects all playerbots to a locally-hosted generative AI
+Now finally, we get to the AI integration. A seperate module called [Ollama Chat →](https://www.azerothcore.org/catalogue.html#/details/954883822) connects all playerbots to a locally-hosted generative AI
 through Ollama. While Ollama is designed to host AI servers in such a way that reduces their performance impact, all locally hosted generative AI utilize the computer's processing power to create their response.
 As a result, connecting a large number of playerbots to Ollama has a significant impact on performance and hardware demand. The module is still in early development and can be a bit unstable given the
 environment it's running in. Currently, its functionality is simple. Whenever a playerbot detects a message, it will send a prompt alongside of any relevant in-game variables to the Ollama-hosted LLM,
@@ -73,17 +73,17 @@ Bob -- a human rogue, altbot
 Brendim -- a dwarf rogue, randombot  
  
 
-| id | Timestamp           | Player Name | Bot Name | Player Message                                           | Bot Reply                                                                 |
-|----|---------------------|-------------|----------|----------------------------------------------------------|---------------------------------------------------------------------------|
-| 1  | 2025-08-22 17:00:31 | JCoops      | Brendim  | That one is wearing a skull!                             | Aye, I see 'im alright, Jcoops. But I'm more interested in smashin' faces than skulls, mate. |
-| 2  | 2025-08-22 17:00:31 | JCoops      | Brendim  | How close are you to levelling up?                       | Aye, not far off now, Jcoops. Keep the demons at bay till I get there!    |
-| 3  | 2025-08-22 17:00:31 | JCoops      | Brendim  | How's everyone doing?                                    | Aye, Brendim here, smashin' skulls as usual in Northshire Valley, ye? Watch yer back out there, Jcoops! |
-| 4  | 2025-08-22 17:00:31 | Bob         | Brendim  | Stealthin' and stabbin', just the usual here, Jcoops.    | Bob, keep stealthin', but watch yer back, mate! I'm here in Northshire, ready to take on challenges together. |
-| 5  | 2025-08-22 17:00:31 | Bob         | Brendim  | Aye Brendim, I'm just lurkin' around the shadows waitin' for an opportunity to strike. | Noted, Bob. Time to step out from the shadows, eh? Let's see how you fare against this here axe. |
-| 6  | 2025-08-22 17:00:31 | Bob         | Brendim  | Alright Brendim, time to dance. Shadows first, axe second. | Alright Bob, let's not forget I'm the tank here, shield up when we dance. |
-| 7  | 2025-08-22 17:00:31 | JCoops      | Bob      | Quit arguing you two!                                    | Quieting down, Jcoops? Just a bit more practice in the art of stealth, and you'll have 'em whispering our name instead. |
-| 8  | 2025-08-22 17:00:31 | Brendim     | Bob      | Noted, Bob. Time to step out from the shadows, eh? Let's see how you fare against this here axe. | Alright Brendim, time to dance. Shadows first, axe second. |
-| 9  | 2025-08-22 17:00:31 | Brendim     | Bob      | Alright Bob, let's not forget I'm the tank here, shield up when we dance. | Got it, boss. Stay close and watch my back, shield up when I dance.       |
+| id | Player Name | Bot Name | Player Message                                           | Bot Reply                                                                 |
+|----|-------------|----------|----------------------------------------------------------|---------------------------------------------------------------------------|
+| 1  | JCoops      | Brendim  | That one is wearing a skull!                             | Aye, I see 'im alright, Jcoops. But I'm more interested in smashin' faces than skulls, mate. |
+| 2  | JCoops      | Brendim  | How close are you to levelling up?                       | Aye, not far off now, Jcoops. Keep the demons at bay till I get there!    |
+| 3  | JCoops      | Brendim  | How's everyone doing?                                    | Aye, Brendim here, smashin' skulls as usual in Northshire Valley, ye? Watch yer back out there, Jcoops! |
+| 4  | Bob         | Brendim  | Stealthin' and stabbin', just the usual here, Jcoops.    | Bob, keep stealthin', but watch yer back, mate! I'm here in Northshire, ready to take on challenges together. |
+| 5  | Bob         | Brendim  | Aye Brendim, I'm just lurkin' around the shadows waitin' for an opportunity to strike. | Noted, Bob. Time to step out from the shadows, eh? Let's see how you fare against this here axe. |
+| 6  | Bob         | Brendim  | Alright Brendim, time to dance. Shadows first, axe second. | Alright Bob, let's not forget I'm the tank here, shield up when we dance. |
+| 7  | JCoops      | Bob      | Quit arguing you two!                                    | Quieting down, Jcoops? Just a bit more practice in the art of stealth, and you'll have 'em whispering our name instead. |
+| 8  | Brendim     | Bob      | Noted, Bob. Time to step out from the shadows, eh? Let's see how you fare against this here axe. | Alright Brendim, time to dance. Shadows first, axe second. |
+| 9  | Brendim     | Bob      | Alright Bob, let's not forget I'm the tank here, shield up when we dance. | Got it, boss. Stay close and watch my back, shield up when I dance.       |
 
 Worth noting is that both playerbots input and respond to player messages, but also to each other, creating an amusing loop in which the playerbots began to respond to each other's responses towards me.
 Input loops like this can be modified by reducing the likelihood of bots responding to other bots, but for the sake of witnessing how two playerbots, both connected to a generative AI and with different
