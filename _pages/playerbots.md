@@ -66,7 +66,7 @@ Altbots are capable of performing limited actions of their own accord, such as l
 sell unwanted items, and occassionally send messages to their player handler. Altbots provide a different sort of immersion to that of randombots. Where randombots help populate the world to appear more
 active, altbots provide social immersion to the player in a similar style to having in-game friends or guildmembers. They accompany the player on their exploits and assist by progressing the player's other
 characters for them. A player with 5 altbots levelling up with them would no longer need to level up each character individually, alleviating the need to repeat familiar quests, and ensuring the player always
-has a team for completing more challenging content.
+has a team for completing more challenging content. In a sense, the use of altbots allows players to "play with (alongside) themselves."
 
 Now finally, we get to the AI integration. A seperate module called [Ollama Chat →](https://www.azerothcore.org/catalogue.html#/details/954883822) connects all playerbots to a locally-hosted generative AI
 through Ollama. While Ollama is designed to host AI servers in such a way that reduces their performance impact, all locally hosted generative AI utilize the computer's processing power to create their response.
@@ -95,6 +95,13 @@ Worth noting is that both playerbots input and respond to player messages, but a
 Input loops like this can be modified by reducing the likelihood of bots responding to other bots, but for the sake of witnessing how two playerbots, both connected to a generative AI and with different
 in-game variables, might react, I decided to increase the likelihood of input loop occurance. Also worth mentioning is that these logs only included details from the conversation between nearby bots,
 while other bots were generating their own messages between each other elsewhere (and as soon as I can find those chatlogs I'll include them here too).
+
+There are additional modules currently under development (unfortunately too experimental for my hardware to handle), which furthers playerbot integration with Ollama by referring to it during the decsion-making process.
+Rather than consulting its own decision tree, these modules allow playerbots to prompt Ollama's connected LLM to suggest what action it undertakes next. While default playerbots' decision making isn't context-sensitive,
+LLM-powered playerbots have a vastly larger source of knowledge and can advise playerbots on specific decisions to undertake. For example, while a playerbot is dependent solely on completing quests and killing enemies
+to level up, the LLM might inform the playerbot of the best location to do this for its level, suggest specific quests to complete, and even pursue specific rewards. As similar modules continue to develop
+and reinforce the integration between playerbots and LLMs, playerbots have the potential to take on increasingly human-like player qualities. With experimental features for playerbot personalities, including in-game trolling,
+it's conceivable that at a certain point, it might become difficult to tell whether another player is in-fact another human.
 
 Generative AI-powered videogame NPCs appear to be a goal for numerous game development studios, and while they struggle with design and implementation, community-driven efforts such as WoW playerbots
 represent an untapped knowledge source for how AI might be integrated into future games. An unfortunate difficulty in accessing this knowledge source, however, is that it is built upon

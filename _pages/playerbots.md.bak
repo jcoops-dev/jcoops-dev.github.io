@@ -49,15 +49,20 @@ nearby, it will attack them. They are designed to mimic the actions and behaviou
 and even have pre-made strategies for handling combat and boss fights. It is worth noting here that these Playerbots are not generative AI (but we'll get to that shortly), they are still simply running
 scripts to handle repetitive in-game tasks and determine what they should do next.
 
-There are two types of playerbots made available through these modules: randombots and altbots. Randombots are made to represent other players. They are generated when the server is launched and 
-gradually populate the world. To avoid overloading the computer's memory, randombots are put to sleep whenever there is no nearby player (this functionality can be disabled). Randombots will otherwise functional
-completely independent of real players and help populate the world, providing immersion through simulated player presence. Altbots, on the other hand, are made from the player's own characters.
-The player logs into the character of their choice and, through a simple in-game command, can generate a bot which logs in to one of their other characters. A player could then log out, log in to
+There are two types of playerbots made available through these modules: randombots and altbots. 
+
+Randombots are made to represent other players. They are generated when the server is launched and gradually populate the world. 
+To avoid overloading the computer's memory, randombots are put to sleep whenever there is no nearby player (this functionality can be disabled). Randombots will otherwise function
+completely independent of real players and help populate the world, providing immersion through simulated player presence. 
+
+Altbots, on the other hand, are made from the player's own characters. The player logs into the character of their choice and, through a simple in-game command, can generate a bot which logs in to one of their other characters. A player could then log out, log in to
 the other character, and generate a bot for their former character instead. Altbots offer an interesting opportunity of collaborative play with AI agents rather than competitive play. A player can't normally
 play two characters at once, as neither the systems nor the input requirements would cooperate with such an action, but with altbots, players can control multiple of their own characters at once.
 Altbots don't act with nearly the same autonomy as randombots, as they are instead designed to follow player instructions. These instructions can be issued through chat messages or through the use of
 in-game macros, which execute lines of text that can generate chat messages. A player can issue the command "attack my target" through either method, and all of the player's altbots will immediately
-follow their instructions. Altbots are capable of performing limited actions of their own accord, such as looting enemies or talking to NPCs, but will also run scripts to optimize their equipment,
+follow their instructions. 
+
+Altbots are capable of performing limited actions of their own accord, such as looting enemies or talking to NPCs, but will also run scripts to optimize their equipment,
 sell unwanted items, and occassionally send messages to their player handler. Altbots provide a different sort of immersion to that of randombots. Where randombots help populate the world to appear more
 active, altbots provide social immersion to the player in a similar style to having in-game friends or guildmembers. They accompany the player on their exploits and assist by progressing the player's other
 characters for them. A player with 5 altbots levelling up with them would no longer need to level up each character individually, alleviating the need to repeat familiar quests, and ensuring the player always
@@ -90,6 +95,13 @@ Worth noting is that both playerbots input and respond to player messages, but a
 Input loops like this can be modified by reducing the likelihood of bots responding to other bots, but for the sake of witnessing how two playerbots, both connected to a generative AI and with different
 in-game variables, might react, I decided to increase the likelihood of input loop occurance. Also worth mentioning is that these logs only included details from the conversation between nearby bots,
 while other bots were generating their own messages between each other elsewhere (and as soon as I can find those chatlogs I'll include them here too).
+
+There are additional modules currently under development (unfortunately too experimental for my hardware to handle), which furthers playerbot integration with Ollama by referring to it during the decsion-making process.
+Rather than consulting its own decision tree, these modules allow playerbots to prompt Ollama's connected LLM to suggest what action it undertakes next. While default playerbots' decision making isn't context-sensitive,
+LLM-powered playerbots have a vastly larger source of knowledge and can advise playerbots on specific decisions to undertake. For example, while a playerbot is dependent solely on completing quests and killing enemies
+to level up, the LLM might inform the playerbot of the best location to do this for its level, suggest specific quests to complete, and even pursue specific rewards. As similar modules continue to develop
+and reinforce the integration between playerbots and LLMs, playerbots have the potential to take on increasingly human-like player qualities. With experimental features for playerbot personalities, including in-game trolling,
+it's conceivable that at a certain point, it might become difficult to tell whether another player is in-fact another human.
 
 Generative AI-powered videogame NPCs appear to be a goal for numerous game development studios, and while they struggle with design and implementation, community-driven efforts such as WoW playerbots
 represent an untapped knowledge source for how AI might be integrated into future games. An unfortunate difficulty in accessing this knowledge source, however, is that it is built upon
