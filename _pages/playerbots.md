@@ -7,7 +7,11 @@ author_profile: true
 
 {% include base_path %}
 
-## Overview
+## Playerbots
+
+A short write-up on my recent interaction with Playerbots.
+
+### Background
 
 In my latest work examining how generative AI might be used in digital games, I stumbled upon something rather unexpected.
 I found a game which already had AI-powered game characters which promised to be highly immersive, capable of displaying personality, and would be near-indistinguishable from a human player.
@@ -19,6 +23,8 @@ World of Warcraft has a fascinating history of use in academic literature, from 
 to the [Corrupted Blood virtual pandemic incident →](https://www.researchgate.net/publication/274073459_On_the_Problem_of_Predicting_Real_World_Characteristics_from_Virtual_Worlds).
 Due to the game's large and persistent community of players, the game has often given rise to curious emergent social behaviours and interactions with real-world implications.
 It is for this reason that I was surprised to see the game now being used to test out AI-Player interactions. I will detail how this has been happening in the following sections.
+
+### Botting & Private Servers
 
 "Botting" is a practice in which players use programs and scripts to automate their characters. This allows player characters to continue playing without any player input,
 often to complete tedious tasks such as gathering resources or repeatidly killing the same enemy for virtual currency. Botting is also a bannable offense in World of Warcraft,
@@ -42,6 +48,8 @@ to submit individual modifications (called modules in this context -- modding wo
 gameplay improvements such as reduced character creation restrictions (making characters otherwise not possible in the original game) to entirely new content such as custom maps.
 One particular improvement caught my eye: Playerbots.  
 
+### What Playerbots Are
+
 Playerbots makes use of botting scripts to create and control up to 10,000 simultaneous player characters (it could likely go higher with sufficient computer memory). It begins by registering fake player
 accounts in the server's database, then creates up to 10 in-game characters for each account. The playerbots are then able to login to all of their characters simultaneously and handle decision-making and actions for each character.
 Playerbots operate using a simple decision tree based on in-game variables. If it has any quests, it will navigate towards them. If it's near a town, it will talk to the NPCs. If there are enemies
@@ -53,7 +61,7 @@ There are two types of playerbots made available through these modules: randombo
 
 Randombots are made to represent other players. They are generated when the server is launched and gradually populate the world. 
 To avoid overloading the computer's memory, randombots are put to sleep whenever there is no nearby player (this functionality can be disabled). Randombots will otherwise function
-completely independent of real players and help populate the world, providing immersion through simulated player presence. 
+completely independent of real players provide immersion through simulated player presence. 
 
 Altbots, on the other hand, are made from the player's own characters. The player logs into the character of their choice and, through a simple in-game command, can generate a bot which logs in to one of their other characters. A player could then log out, log in to
 the other character, and generate a bot for their former character instead. Altbots offer an interesting opportunity of collaborative play with AI agents rather than competitive play. A player can't normally
@@ -67,6 +75,8 @@ sell unwanted items, and occassionally send messages to their player handler. Al
 active, altbots provide social immersion to the player in a similar style to having in-game friends or guildmembers. They accompany the player on their exploits and assist by progressing the player's other
 characters for them. A player with 5 altbots levelling up with them would no longer need to level up each character individually, alleviating the need to repeat familiar quests, and ensuring the player always
 has a team for completing more challenging content. In a sense, the use of altbots allows players to "play with (alongside) themselves."
+
+### AI-Powered Playerbots
 
 Now finally, we get to the AI integration. A seperate module called [Ollama Chat →](https://www.azerothcore.org/catalogue.html#/details/954883822) connects all playerbots to a locally-hosted generative AI
 through Ollama. While Ollama is designed to host AI servers in such a way that reduces their performance impact, all locally hosted generative AI utilize the computer's processing power to create their response.
@@ -102,6 +112,8 @@ LLM-powered playerbots have a vastly larger source of knowledge and can advise p
 to level up, the LLM might inform the playerbot of the best location to do this for its level, suggest specific quests to complete, and even pursue specific rewards. As similar modules continue to develop
 and reinforce the integration between playerbots and LLMs, playerbots have the potential to take on increasingly human-like player qualities. With experimental features for playerbot personalities, including in-game trolling,
 it's conceivable that at a certain point, it might become difficult to tell whether another player is in-fact another human.
+
+### Conclusion
 
 Generative AI-powered videogame NPCs appear to be a goal for numerous game development studios, and while they struggle with design and implementation, community-driven efforts such as WoW playerbots
 represent an untapped knowledge source for how AI might be integrated into future games. An unfortunate difficulty in accessing this knowledge source, however, is that it is built upon
