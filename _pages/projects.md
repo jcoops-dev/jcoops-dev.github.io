@@ -21,6 +21,12 @@ A collection of AI-generated art experiments and applications.
 
 ---
 
+## Playerbots
+An exploration of AI-powered videogame NPCs in an emulated environment.
+[Read more about this →](/projects/playerbots)
+
+---
+
 ## Other Projects
 Various game and other media projects.
 [Explore projects →](/projects/other-projects)
