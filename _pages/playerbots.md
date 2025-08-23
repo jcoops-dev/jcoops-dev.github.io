@@ -31,7 +31,7 @@ and players employing bots are often more powerful due to their ability to gathe
 
 Another phenomenon relavent to this research is the propagation of private servers. Another highly bannable, if not often illegal, practice of running an emulated copy of World of Warcraft
 is a similarly old practice to botting. Through advanced server tools and C++ coding, it is possible to generate a fake game server hosted from the user's own computer. When the user logs into the game,
-they don't log into one of World of Warcraft's servers, they instead log onto their own private server. These private servers can then be made publicly available, allowing other users
+they don't log into one of World of Warcraft's servers, they instead log onto their own private server. These private servers can then be made publicly available (that's the illegal part), allowing other users
 to log into them. A sort of "black market" network of private servers have developed parallel to the original game, and despite the company's past efforts to [shut them down->](https://arstechnica.com/gaming/2016/04/blizzard-shuts-down-popular-fan-run-pirate-server-for-classic-wow/),
 they too continue to run every day. While the first iterations of private servers originally sought to replicate the World of Warcraft experience as accurately as possible,
 some of the latest big private server projects have been experimenting with custom content unique to their server, transforming the game World of Warcraft into something similar to a game engine.
