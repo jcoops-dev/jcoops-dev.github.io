@@ -9,7 +9,7 @@ author_profile: true
 
 ## Playerbots & AI-Powered Game Characters
 
-A short write-up on my recent interaction with Playerbots.
+A (not so) short write-up on my recent investigation into Playerbots.
 
 ### Background
 
@@ -19,8 +19,8 @@ That game is World of Warcraft.
 
 I have many years of experience with the game, first playing in 2008 and on and off for years following. World of Warcraft is a Massively Multiplayer Online Game (MMO),
 meaning that thousands of players are online simultaneously, each pursuing their own in-game goals while occasionally partnering up with other players to complete more challenging content.
-World of Warcraft has a fascinating history of use in academic literature, from Ge Jin's [Chinese Gold Farmers in the Game World →](https://csrn.camden.rutgers.edu/newsletters/7-2/jin.htm)
-to the [Corrupted Blood virtual pandemic incident →](https://www.researchgate.net/publication/274073459_On_the_Problem_of_Predicting_Real_World_Characteristics_from_Virtual_Worlds).
+World of Warcraft has a fascinating history of use in academic literature, from Ge Jin's [Chinese Gold Farmers in the Game World](https://csrn.camden.rutgers.edu/newsletters/7-2/jin.htm)
+to the [Corrupted Blood virtual pandemic incident](https://www.researchgate.net/publication/274073459_On_the_Problem_of_Predicting_Real_World_Characteristics_from_Virtual_Worlds).
 Due to the game's large and persistent community of players, the game has often given rise to curious emergent social behaviours and interactions with real-world implications.
 It is for this reason that I was surprised to see the game now being used to test out AI-Player interactions. I will detail how this has been happening in the following sections.
 
@@ -30,22 +30,22 @@ It is for this reason that I was surprised to see the game now being used to tes
 often to complete tedious tasks such as gathering resources or repeatidly killing the same enemy for virtual currency. Botting is also a bannable offense in World of Warcraft,
 as it violates the game's Terms & Conditions and is widely considered to be a method of cheating. Nevertheless, due to the real-world value of the game's virtual currency,
 players continue to employ bots to run their characters. 
-More on this practice can be read from the numerous publications about developers [mass-banning bot accounts →](https://www.thegamer.com/blizzard-banned-74000-bots-world-of-warcraft-classic-future-change/). 
+More on this practice can be read from the numerous publications about developers [mass-banning bot accounts](https://www.thegamer.com/blizzard-banned-74000-bots-world-of-warcraft-classic-future-change/). 
 While most World of Warcraft players believe bots to be either a nuscence or an outright game-ruining exploit, for the purposes of this exploration into AI-powered game characters, 
 these bots represent an early glimpse into AI-Player interaction, and is overall viewed quite negatively given the context.
 
 Another phenomenon relavent to this research is the propagation of private servers. Another highly bannable, if not often illegal, practice of running an emulated copy of World of Warcraft
 is almost as old as botting. Through advanced server tools and C++ coding, it is possible to generate a fake game server hosted from the user's own computer. When the user logs into the game,
 they don't log into one of World of Warcraft's servers, they instead log onto their own private server. These private servers can then be made publicly available (that's the illegal part), allowing other users
-to log into them. A sort of "black market" network of private servers have developed parallel to the original game, and despite the game developer's past efforts to [shut them down->](https://arstechnica.com/gaming/2016/04/blizzard-shuts-down-popular-fan-run-pirate-server-for-classic-wow/),
+to log into them. A sort of "black market" network of private servers have developed parallel to the original game, and despite the game developer's past efforts to [shut them down](https://arstechnica.com/gaming/2016/04/blizzard-shuts-down-popular-fan-run-pirate-server-for-classic-wow/),
 they too continue to run every day. While the first iterations of private servers originally sought to replicate the World of Warcraft experience as accurately as possible,
 some of the latest big private server projects have been experimenting with custom content unique to their server, transforming the game World of Warcraft into something similar to a game engine.
 
 As the private server community grew, so too did its ambitions and the robustness of its technology. 
-Now most private servers are based on a single open-source distribution called [AzerothCore →](https://www.azerothcore.org/). This software was designed to be highly modular, allowing community projects
+Now most private servers are based on a single open-source distribution called [AzerothCore](https://www.azerothcore.org/). This software was designed to be highly modular, allowing community projects
 to submit individual modifications (called modules in this context -- modding would be an appropriate term as well) to the code to implement specific features. These features can range from
 gameplay improvements such as reduced character creation restrictions (making characters otherwise not possible in the original game) to entirely new game content such as custom maps.
-One of the most popular modifications for this distribution is [Playerbots →](https://www.azerothcore.org/catalogue.html#/details/646926161), which allows the server to populated with fake players
+One of the most popular modifications for this distribution is [Playerbots](https://www.azerothcore.org/catalogue.html#/details/646926161), which allows the server to populated with fake players
 controlled by botting scripts.  
 
 ### What Playerbots Are
@@ -88,7 +88,7 @@ the AI, this simply has the AI play on behalf of the player.
 
 ### AI-Powered Playerbots
 
-Now finally, we get to the AI integration. A seperate module called [Ollama Chat →](https://www.azerothcore.org/catalogue.html#/details/954883822) connects all playerbots to a locally-hosted generative AI
+Now finally, we get to the AI integration. A seperate module called [Ollama Chat](https://www.azerothcore.org/catalogue.html#/details/954883822) connects all playerbots to a locally-hosted generative AI
 through Ollama. While Ollama is designed to host AI servers in such a way that reduces their performance impact, all locally hosted generative AI utilize the computer's processing power to create their response.
 As a result, connecting a large number of playerbots to Ollama has a significant impact on performance and hardware demand. The module is still in early development and can be a bit unstable given the
 environment it's running in. Currently, its functionality is simple. Whenever a playerbot detects a message, it will send a prompt alongside of any relevant in-game variables to the Ollama-hosted LLM,
@@ -126,17 +126,17 @@ it's conceivable that at a certain point, it might become difficult to tell whet
 ### Playerbots and AI Futures
 
 While I focused primarily on Playerbots as found on World of Warcraft private servers, I do want to emphasize that these are not the only Playerbots that have been developed for popular games (only the most familiar for me).
-Minecraft has a host of different Playerbots applications, from [MinePal →](https://minepal.net/) to Caltech's [Voyager Project →](https://voyager.minedojo.org/).
+Minecraft has a host of different Playerbots applications, from [MinePal](https://minepal.net/) to Caltech's [Voyager Project](https://voyager.minedojo.org/).
 Bethesda's The Elder Scrolls 5: Skyrim, one of the most popularly modded games ever, also has experimental LLM integration mods in the works, such as [Mantella](https://www.nexusmods.com/skyrimspecialedition/mods/98631?tab=posts),
-a mod which is also available in Bethesda's [Fallout 4 →](https://www.nexusmods.com/fallout4/mods/79747).
+a mod which is also available in Bethesda's [Fallout 4](https://www.nexusmods.com/fallout4/mods/79747).
 
 This marks an interesting case of community-driven AI integration projects occuring within games that are owned by Microsoft. World of Warcraft is owned by Blizzard-Activision, a Microsoft acquisition
 in 2023. Bethesda was acquired by Microsoft in 2021, only 2 years earlier. And Minecraft is also owned by Microsoft, purchased back in 2014. Microsoft owns several games on the bleeding edge of AI integration
 using solutions such as Playerbots, but these endeavours are noticably not being led by Microsoft themselves.
 
-Like most major technology companies, Microsoft is investing heavily in AI research, including for digital games through their [Game Intelligence Research Lab →](https://www.microsoft.com/en-us/research/group/game-intelligence/).
+Like most major technology companies, Microsoft is investing heavily in AI research, including for digital games through their [Game Intelligence Research Lab](https://www.microsoft.com/en-us/research/group/game-intelligence/).
 However, their research focus currently appears to be on AI ideation: generating game visuals using AI for the purposes of digital prototyping. 
-While this [Muse project →](https://www.microsoft.com/en-us/research/blog/introducing-muse-our-first-generative-ai-model-designed-for-gameplay-ideation/) certainly has strong potential for aiding in designing
+While this [Muse project](https://www.microsoft.com/en-us/research/blog/introducing-muse-our-first-generative-ai-model-designed-for-gameplay-ideation/) certainly has strong potential for aiding in designing
 future AI-powered games, it doesn't fully take advantage of the numerous community-driven AI projects that are emerging from their own intellictual properties.
 
 This potential clash between corporate priority and community development paves an interesting path forward for AI in games. Given Microsoft's ownership of the communities where these developments are occurring,
