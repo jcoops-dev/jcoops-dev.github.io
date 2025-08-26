@@ -9,7 +9,7 @@ author_profile: true
 
 ## Playerbots & AI-Powered Game Characters
 
-A short write-up on my recent interaction with Playerbots.
+A (not so) short write-up on my recent interaction with Playerbots.
 
 ### Background
 
