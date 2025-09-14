@@ -13,7 +13,7 @@ A short write-up on my recent investigation into AI-powered NPCs called "Playerb
 
 ### Background
 
-In my latest work examining how generative AI might be used in digital games, I stumbled upon a familar yet unexpected game which already appeared to have working AI-powered game characters. 
+In my latest work examining how generative AI might be used in digital games, I stumbled upon a familiar yet unexpected game which already appeared to have working AI-powered game characters. 
 These characters were presented as being highly immersive, capable of displaying personality, and would be near-indistinguishable from a human player. 
 The game in question is World of Warcraft, but with some interesting caveats which I will present in this article.
 
@@ -23,18 +23,18 @@ World of Warcraft has a fascinating history of use in academic writing, from Ge 
 to the [Corrupted Blood virtual pandemic incident](https://www.researchgate.net/publication/274073459_On_the_Problem_of_Predicting_Real_World_Characteristics_from_Virtual_Worlds).
 Due to the game's large and persistent community of players, the game has often given rise to curious emergent social behaviours and interactions, some with real-world implications such as the two linked above.
 It is for this reason that I was surprised to see the game now being used to test out AI-Player interactions, but even more surprising still is that the developers themselves have seemingly little involvement in this.
-In fact, the AI work occuring in this game actually runs counter to the developer's wishes and stem entirely from community-run efforts in ways that are often either against the game's Terms & Conditions or potentially even illegal.
+In fact, the AI work occurring in this game actually runs counter to the developer's wishes and stem entirely from community-run efforts in ways that are often either against the game's Terms & Conditions or potentially even illegal.
 
 ### Botting & Private Servers
 
 To examine the AI-Powered game characters used in World of Warcraft, there are two practices that must be examined: the use of bots and the propagation of private servers.  
 
 "Botting" is a practice in which players use programs and scripts to automate their game characters. This allows player characters to continue playing without any player input,
-often to complete tedious tasks such as gathering resources or repeatidly killing the same enemy for virtual currency. 
+often to complete tedious tasks such as gathering resources or repeatedly fighting the same enemies for virtual currency. 
 The use of external scripts to automate gameplay is also a bannable offense in World of Warcraft, as it violates the game's Terms & Conditions, and is considered as cheating amongst the majority of the game's community.
 Nevertheless, due to the real-world value of the game's virtual currency (see the above Gold Farming article for more information), it is not unusual to routinely encounter bots while playing the game. 
 More on this practice can be read from the numerous publications about developers [mass-banning bot accounts](https://www.thegamer.com/blizzard-banned-74000-bots-world-of-warcraft-classic-future-change/). 
-While most World of Warcraft players believe bots to be either a nuscence or an outright game-ruining exploit, for the purposes of this exploration into AI-powered game characters, 
+While most World of Warcraft players believe bots to be either a nuisance or an outright game-ruining exploit, for the purposes of this exploration into AI-powered game characters, 
 these bots represent an early glimpse into AI-Player interaction, and is overall viewed quite negatively given the context.
 
 The propagation of private servers represents the other relevant practice to the development of AI-Powered game characters. A private server is an emulated copy of the game's official servers,
@@ -86,8 +86,8 @@ in-game macros, which execute lines of text that can generate chat messages. A p
 follow engage in combat.
 
 Altbots are also capable of performing limited actions on their own, such as looting enemies or talking to NPCs, but will also run scripts to optimize their equipment,
-sell unwanted items, and occassionally send messages to their player handler. Altbots provide a different sort of immersion to that of randombots. Where randombots help populate the world to appear more
-active, altbots provide social immersion to the player in a similar style to having in-game friends or guildmembers. They accompany the player on their exploits and assist by progressing the player's other
+sell unwanted items, and occasionally send messages to their player handler. Altbots provide a different sort of immersion to that of randombots. Where randombots help populate the world to appear more
+active, altbots provide social immersion to the player in a similar style to having in-game friends or guild members. They accompany the player on their exploits and assist by progressing the player's other
 characters for them. A player with 10 altbots would no longer need to level up each character individually, alleviating the need to repeat familiar quests and ensuring the player always
 has a group for completing more challenging content. In a sense, the use of altbots allows players to "play with (alongside) themselves."
 
@@ -124,10 +124,10 @@ Brendim -- a dwarf warrior, randombot
 
 Worth noting is that both playerbots input and respond to player messages, but also to each other, creating an amusing loop in which the playerbots began to respond to each other's responses towards me.
 Input loops like this can be modified by reducing the likelihood of bots responding to other bots, but for the sake of witnessing how two playerbots, both connected to a generative AI and with different
-in-game variables, might react, I decided to increase the likelihood of input loop occurance. Also worth mentioning is that these logs only included details from the conversation between nearby bots,
+in-game variables, might react, I decided to increase the likelihood of input loop occurrence. Also worth mentioning is that these logs only included details from the conversation between nearby bots,
 while other bots were generating their own messages between each other elsewhere.
 
-There are additional modules currently under development (unfortunately too experimental for my hardware to handle), which furthers playerbot integration with Ollama by referring to it during the decsion-making process.
+There are additional modules currently under development (unfortunately too experimental for my hardware to handle), which furthers playerbot integration with Ollama by referring to it during the decision-making process.
 Rather than consulting its own decision tree, these modules allow playerbots to prompt Ollama's connected LLM to suggest what actions or activities it undertakes next. While default playerbots' decision making isn't context-sensitive,
 LLM-powered playerbots have a much larger pool of knowledge and can advise playerbots on specific decisions to undertake. For example, while a playerbot is dependent solely on completing quests and fighting nearby enemies
 to level up, the LLM might inform the playerbot of the best location to do this for its level, suggest specific quests to complete, and even pursue specific rewards. As similar modules continue to develop
