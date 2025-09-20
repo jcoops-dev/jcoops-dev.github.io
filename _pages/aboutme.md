@@ -8,20 +8,11 @@ author_profile: true
 {% include base_path %}
 
 
-## About Me
-
-Hi, my name is Jay Cooper, and if you're seeing this, I'm still rough drafting my bio!
+Hi, I'm Jay Cooper and if you're reading this, you probably want to know more about me! Below I've included a list of my past work and education background,
+and be sure to check out my ongoing work on the [projects](/projects/) page!
 
 ## CV  
-  
-SUMMARY OF QUALIFICATIONS  
-  
-• Experience leading project teams, managing timelines, and overseeing task completion  
-• Proficient in Microsoft Office Suite, Microsoft Project, and other management software  
-• Professional research conduct and synthesis compliant with academic standards and policies  
-• Technical expertise and a familiarity with software development workflow and programming tools  
-• Experience in applied research and prototyping involving artificial intelligence (AI) tools for interactive systems    
-  
+    
 WORK EXPERIENCE  
   
 Researcher Professional March 2025 – Present  
