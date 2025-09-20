@@ -15,8 +15,11 @@ A collection of other projects I have worked on. Gradually being updated.
 
 ## The Astral Project  
   
-A short scavenger hunt game about self-isolation during the pandemic, prepared for my Digital Games course during my masters degree.
-WASD or arrow keys to move. Space to interact with things. Explore all 5 rooms to unlock a secret ending!
+A short scavenger hunt game about self-isolation during the pandemic, prepared for my Digital Games course during my masters degree.  
+  
+WASD or arrow keys to move.  
+Space to interact with things.  
+Explore all 5 rooms to unlock a secret ending!  
 
 <iframe 
   src="/TheAstralProject/index.html" 
