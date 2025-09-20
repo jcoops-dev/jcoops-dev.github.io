@@ -25,9 +25,7 @@ Following the successful deployment of the project in Godot, I recreated the pro
 Since then, I've completed several upgrades ranging from user experience to prompt engineering and to simply improving performance.
 Now, as I near the final version of this initial prototype, the project will begin to split into a multitude of sub-projects.
 
-## Screenshots
-
-### Prototype 1: Godot
+## Prototype 1: Godot
 
 First LM Integration with Godot. LM Studio back-end server connected to live gameplay within the Godot engine. 
 ![Screenshot 1](/images/ai-unity/screenshot1.png)
@@ -44,5 +42,10 @@ Initial Narrative Test
 Prototype 1 code in Gdscript
 ![Screenshot 5](/images/ai-unity/screenshot5.png)
 
-## Links
-Once I finish updating this website with all of the current information, I'll setup a project tracking hub which can be accessed from here. 
+## Prototype 2: Unity
+
+Coming soon!
+
+## Future Developments
+
+Coming soon!
