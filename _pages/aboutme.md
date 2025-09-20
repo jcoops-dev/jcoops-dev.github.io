@@ -8,7 +8,7 @@ author_profile: true
 {% include base_path %}
 
 
-##  
+## Intro 
   
 Hi, I'm Jay Cooper and if you're reading this, you probably want to know more about me! Below I've included a list of my past work and education background,
 and be sure to check out my ongoing work on the [projects](/projects/) page!
