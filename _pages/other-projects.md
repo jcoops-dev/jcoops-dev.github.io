@@ -8,10 +8,18 @@ author_profile: true
 {% include base_path %}
 
 ## Overview
-WIP, come back soon!
 
-## Screenshots
-Coming soon!
+A collection of other projects I have worked on. Gradually being updated.
+
+### The Astral Project
+
+<iframe 
+  src="/TheAstralProject/index.html" 
+  width="800" 
+  height="600" 
+  style="border:2px solid #444; border-radius:8px;">
+</iframe>
+<p><a href="/TheAstralProject/" target="_blank">Play full screen</a></p>
 
 ## Links
 Coming soon!
