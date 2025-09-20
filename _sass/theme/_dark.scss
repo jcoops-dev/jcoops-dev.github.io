@@ -1,32 +1,29 @@
 /* ==========================================================================
-   DARK THEME - Purple Accents
+   DARK THEME
    ========================================================================== */
 
-/* Base gray tones */
+/* Color codes used for the theme */
 $gray                       : #7a8288;
 $dark-gray                  : mix(#000, $gray, 40%);
 $darker-gray                : mix(#000, $gray, 60%);
 $light-gray                 : mix(#fff, $gray, 50%);
 
-/* Backgrounds & text */
 $background                 : #474747;
 $background-light           : mix(#fff, $background, 80%);
 $background-lighter         : mix(#fff, $background, 90%);
 $text                       : #ffffff;
+$link                       : #0ea1c5;
+$link-dark                  : mix(#000, $link, 25%);
+$link-light                 : mix(#fff, $link, 25%);
 
-/* Purple accent colors */
-$accent-purple              : #7C59A5; // main accent
-$accent-purple-light        : #BFA2DB; // for hover/visited links
-$accent-purple-dark         : #4B2C72; // for button hover states
-
-/* Other theme colors (unchanged) */
+/* Color codes used for the site */
 $danger-color               : #ee5f5b;
 $info-color                 : #2f7f93;
 $notice-color               : #7a8288;
 $success-color              : #62c462;
 $warning-color              : #f89406;
 
-/* Basic settings */
+/* Other basic settings for the template */
 $border-radius              : 4px;
 $box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.125);
 $global-transition          : all 0.2s ease-in-out;
@@ -36,9 +33,8 @@ $navicon-height             : 4px;
 $sidebar-link-max-width     : 250px;
 $sidebar-screen-min-width   : 1024px;
 
-/* Dark theme for the site with purple accents */
+/* Dark theme for the site */
 html[data-theme="dark"] {
-    /* Global background and text */
     --global-base-color                 : #{$background};
     --global-bg-color                   : #{$background};
     --global-footer-bg-color            : #{$background};
@@ -47,44 +43,12 @@ html[data-theme="dark"] {
     --global-code-background-color      : #fafafa;
     --global-code-text-color            : #{$darker-gray};
     --global-fig-caption-color          : #{$light-gray};
-    --global-text-color                 : #{$text};
-    --global-text-color-light           : #{$light-gray};
-
-    /* Links */
-    --global-link-color                 : #{$accent-purple};
-    --global-link-color-hover           : #{$accent-purple-dark};
-    --global-link-color-visited         : #{$accent-purple-light};
-
-    /* Masthead links */
+    --global-link-color                 : #{$link};
+    --global-link-color-hover           : #{$link-dark};
+    --global-link-color-visited         : #{$link-light};
     --global-masthead-link-color        : #{$text};
     --global-masthead-link-color-hover  : #{$background-light};
-
-    /* Tables */
+    --global-text-color                 : #{$text};
+    --global-text-color-light           : #{$light-gray};
     --global-thead-color                : #{$background-lighter};
-}
-
-/* Headings in purple for accent */
-h1, h2, h3, h4, h5, h6 {
-    color: #{$accent-purple};
-}
-
-/* Buttons / CTA styling */
-button, .btn {
-    background-color: #{$accent-purple};
-    border: none;
-    color: #ffffff;
-    border-radius: $border-radius;
-    transition: $global-transition;
-    cursor: pointer;
-
-    &:hover {
-        background-color: #{$accent-purple-dark};
-    }
-}
-
-/* Optional subtle section gradient for depth */
-section {
-    background: linear-gradient(to bottom, #474747, #4B3B60);
-    padding: 1.5em;
-    border-radius: $border-radius;
 }
