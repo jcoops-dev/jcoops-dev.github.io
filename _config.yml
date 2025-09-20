@@ -12,7 +12,7 @@ site_theme               : "default"
 title                    : "JCoops Dev"
 title_separator          : "-"
 name                     : &name "JCoops"
-description              : &description "personal description"
+description              : &description "A blog for showcasing my work portfolio."
 url                      : https://jcoops-dev.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "jcoops-dev/jcoops-dev.github.io"
@@ -25,11 +25,11 @@ author:
   avatar           : "profile.png"
   name             : "JCoops Dev"
   pronouns         : "He/Him"
-  bio              : "I make things and study media."
-  location         : "Earth"
+  bio              : "Creative technologist and digital designer"
+  location         : "Toronto, Canada"
   employer         : "Ontario Tech University"
-  uri              : # URL
-  email            : #"none@example.org" 
+  uri              : "jcoops-dev.github.io"
+  email            : "coopjayd@gmail.com" 
 
   # Academic websites
   academia         : # URL
