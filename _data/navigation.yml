@@ -23,6 +23,9 @@ main:
   - title: "Blog Posts"
     url: /blog-posts/
     
+  - title: "About Me"
+    url: /aboutme/
+    
 #  - title: "CV"
 #    url: /cv/
     
