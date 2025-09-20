@@ -7,6 +7,8 @@ author_profile: true
 
 {% include base_path %}
 
+[←Return to projects](/projects/)  
+
 ## Playerbots & AI-Powered Game Characters
 
 A short write-up on my recent investigation into AI-powered NPCs called "Playerbots".

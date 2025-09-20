@@ -7,6 +7,8 @@ author_profile: true
 
 {% include base_path %}
 
+[←Return to projects](/projects/)  
+
 ## Overview
 
 This project is an ongoing effort to understand how the advancement of LLMs might be applied to interactive media projects.

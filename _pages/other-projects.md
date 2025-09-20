@@ -7,6 +7,8 @@ author_profile: true
 
 {% include base_path %}
 
+[←Return to projects](/projects/)  
+
 ## Overview
 
 A collection of other projects I have worked on. Gradually being updated.

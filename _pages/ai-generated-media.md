@@ -7,6 +7,8 @@ author_profile: true
 
 {% include base_path %}
 
+[←Return to projects](/projects/)  
+
 ## Overview
 
 As part of my AI-Unity integration project, I've explored running an AI image generator local to my computer, with the intention of eventually using player input to generate in-game images.  
