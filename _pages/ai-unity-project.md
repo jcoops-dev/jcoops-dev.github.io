@@ -44,7 +44,9 @@ Prototype 1 code in Gdscript
 
 ## Prototype 2: Unity
 
-Coming soon!
+Coming soon!  
+  
+![AIGIF](/images/ai-unity/unity-ai.gif) 
 
 ## Future Developments
 
