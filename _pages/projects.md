@@ -22,7 +22,7 @@ A collection of AI-generated art experiments and applications.
 ---
 
 ## Playerbots
-An article exploring community mods which introduce AI-powered videogame NPCs to existing game environments.
+An article exploring community mods which introduce AI-powered videogame NPCs to existing game environments.  
 [Read more about this →](/projects/playerbots)
 
 ---
