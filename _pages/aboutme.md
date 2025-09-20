@@ -12,9 +12,7 @@ author_profile: true
 
 Hi, my name is Jay Cooper, and if you're seeing this, I'm still rough drafting my bio!
 
-## CV
-
-JAY COOPER  
+## CV  
   
 SUMMARY OF QUALIFICATIONS  
   
