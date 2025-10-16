@@ -1,7 +1,7 @@
 ---
 layout: single
-title: "Other Projects"
-permalink: /projects/other-projects/
+title: "Game Projects"
+permalink: /projects/game-projects/
 author_profile: true
 ---
 
@@ -28,6 +28,20 @@ Explore all 5 rooms to unlock a secret ending!
   style="border:2px solid #444; border-radius:8px;">
 </iframe>
 
+## Pirate Survivor  
+  
+A Godot prototype "reverse bullet-hell" game, similar to the indie hit [Vampire Survivors](https://store.steampowered.com/app/1794680/Vampire_Survivors/).  
+ 
 
-## Links
-Coming soon!
+<iframe 
+  src="/Pirate Survivor/index.html" 
+  width="800" 
+  height="600" 
+  style="border:2px solid #444; border-radius:8px;">
+</iframe>
+
+
+## Escape the Zoo  
+  
+Another short Godot prototype, this one inspired by the 2006 WildTangent game: [Penguins!](https://www.wildtangent.com/p/arcade/penguins/?srsltid=AfmBOopigC97WFEjmoLSb__DCukns-5XmFM_yp7aUq6cP_HsQzjCdEAN).  
+  

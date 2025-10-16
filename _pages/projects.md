@@ -27,7 +27,7 @@ An article exploring community mods which introduce AI-powered videogame NPCs to
 
 ---
 
-## Other Projects
-Various game and other media projects.
-[Explore projects →](/projects/other-projects)
+## Game Projects
+A collection of game prototypes and demos.
+[Explore projects →](/projects/game-projects)
 
