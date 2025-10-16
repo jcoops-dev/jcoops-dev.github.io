@@ -36,7 +36,7 @@ A Godot prototype "reverse bullet-hell" game, similar to the indie hit [Vampire 
 <iframe 
   src="/Pirate Survivor/index.html" 
   width="900" 
-  height="450" 
+  height="500" 
   style="border:2px solid #444; border-radius:8px;">
 </iframe>
 
