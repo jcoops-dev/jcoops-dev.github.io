@@ -28,7 +28,7 @@ author:
   bio              : "Creative technologist and digital designer"
   location         : "Toronto, Canada"
   employer         : "Ontario Tech University"
-  uri              : "jcoops-dev.github.io"
+#  uri              : "jcoops-dev.github.io"
   email            : "coopjayd@gmail.com" 
 
   # Academic websites

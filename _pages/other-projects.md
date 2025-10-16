@@ -44,4 +44,7 @@ A Godot prototype "reverse bullet-hell" game, similar to the indie hit [Vampire 
 ## Escape the Zoo  
   
 Another short Godot prototype, this one inspired by the 2006 WildTangent game: [Penguins!](https://www.wildtangent.com/p/arcade/penguins/?srsltid=AfmBOopigC97WFEjmoLSb__DCukns-5XmFM_yp7aUq6cP_HsQzjCdEAN).  
-  
+
+Sadly I lost the original project files from 5 years ago, learning a valuable lesson in version control.
+
+The game is available for download from my [GitHub]:(https://github.com/jcoops-dev/ZooEscape.git).  
